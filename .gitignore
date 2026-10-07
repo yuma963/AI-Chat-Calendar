@@ -1,0 +1,27 @@
+# ===== Python =====
+backend/venv/
+venv/
+__pycache__/
+*.pyc
+
+# ===== Next.js / Node =====
+frontend/node_modules/
+frontend/.next/
+node_modules/
+.next/
+
+# ===== 環境変数・APIキー =====
+.env
+.env.*
+frontend/.env*
+backend/.env*
+
+# ===== Database =====
+*.db
+
+# ===== VS Code =====
+.vscode/
+
+# ===== OS =====
+.DS_Store
+Thumbs.db
